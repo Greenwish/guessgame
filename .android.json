@@ -1,0 +1,1 @@
+{"layout": null, "orientation": "sensorLandscape", "package": "ovh.dubrulle", "include_pil": false, "expansion": true, "name": "guessygame", "update_always": true, "source": false, "icon_name": "guessygame", "version": "1.0", "update_icons": true, "permissions": ["VIBRATE"], "numeric_version": "10", "include_sqlite": false, "store": "none"}

@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 28, in script
+    python:
+  File "game/script.rpy", line 31, in <module>
+    b = int(w)
+ValueError: invalid literal for int() with base 10: ''
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 28, in script
+    python:
+  File "/home/valentin/Téléchargements/renpy-7.1.3-sdk/renpy/ast.py", line 881, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/valentin/Téléchargements/renpy-7.1.3-sdk/renpy/python.py", line 1913, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 31, in <module>
+    b = int(w)
+ValueError: invalid literal for int() with base 10: ''
+
+Linux-4.9.0-8-amd64-x86_64-with-debian-9.6
+Ren'Py 7.1.3.1092
+guessygame 1.0
+Fri Nov 23 13:55:52 2018
